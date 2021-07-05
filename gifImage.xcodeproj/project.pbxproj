@@ -13,6 +13,8 @@
 		FAA8C8682693618C000AB3A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA8C8662693618C000AB3A7 /* Main.storyboard */; };
 		FAA8C86A2693618E000AB3A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA8C8692693618E000AB3A7 /* Assets.xcassets */; };
 		FAA8C86D2693618E000AB3A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA8C86B2693618E000AB3A7 /* LaunchScreen.storyboard */; };
+		FAA8C87926936454000AB3A7 /* 200w.gif in Resources */ = {isa = PBXBuildFile; fileRef = FAA8C87826936454000AB3A7 /* 200w.gif */; };
+		FAA8C87E269365B5000AB3A7 /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA8C87D269365B5000AB3A7 /* UIImage+Gif.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		FAA8C8692693618E000AB3A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAA8C86C2693618E000AB3A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAA8C86E2693618E000AB3A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA8C87826936454000AB3A7 /* 200w.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 200w.gif; sourceTree = "<group>"; };
+		FAA8C87D269365B5000AB3A7 /* UIImage+Gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Gif.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +60,11 @@
 		FAA8C85F2693618C000AB3A7 /* gifImage */ = {
 			isa = PBXGroup;
 			children = (
+				FAA8C87826936454000AB3A7 /* 200w.gif */,
 				FAA8C8602693618C000AB3A7 /* AppDelegate.swift */,
 				FAA8C8622693618C000AB3A7 /* SceneDelegate.swift */,
 				FAA8C8642693618C000AB3A7 /* ViewController.swift */,
+				FAA8C87D269365B5000AB3A7 /* UIImage+Gif.swift */,
 				FAA8C8662693618C000AB3A7 /* Main.storyboard */,
 				FAA8C8692693618E000AB3A7 /* Assets.xcassets */,
 				FAA8C86B2693618E000AB3A7 /* LaunchScreen.storyboard */,
@@ -126,6 +132,7 @@
 			files = (
 				FAA8C86D2693618E000AB3A7 /* LaunchScreen.storyboard in Resources */,
 				FAA8C86A2693618E000AB3A7 /* Assets.xcassets in Resources */,
+				FAA8C87926936454000AB3A7 /* 200w.gif in Resources */,
 				FAA8C8682693618C000AB3A7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +146,7 @@
 			files = (
 				FAA8C8652693618C000AB3A7 /* ViewController.swift in Sources */,
 				FAA8C8612693618C000AB3A7 /* AppDelegate.swift in Sources */,
+				FAA8C87E269365B5000AB3A7 /* UIImage+Gif.swift in Sources */,
 				FAA8C8632693618C000AB3A7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
